@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/styles/style.css">
+	<link rel="stylesheet" href="../css/styles/contacts.css">
+	<title>Contacts</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__content-container">
+			<img src="../images/bislite_logo.png" alt="logo" title="logo" class="header__logo">
+			<nav class="header__navigation-menu">
+				<ul class="navigation-menu__list">
+					<li class="navigation-menu__item">
+						<a href="../../index.html" class="menu-item__link">Home</a>
+					</li>
+					<li class="navigation-menu__item">
+						<a href="#" class="menu-item__link">About Us</a>
+					</li>
+					<li class="navigation-menu__item">
+						<div class="menu-item__block menu-item__block--services block--arrow">Services</div>
+						<ul class="menu-item__dropdown-list">
+							<li class="dropdown-list__item">
+								<a href="#" class="dropdown-list__link link--border-bottom link--margin-top">Web Design</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="#" class="dropdown-list__link link--border-bottom">Wordpress Design</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="#" class="dropdown-list__link link--border-bottom">Mobile App Development</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="#" class="dropdown-list__link link--border-bottom">Internet Marketing</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="#" class="dropdown-list__link link--margin-bottom">Social Media Managment</a>
+							</li>
+						</ul>
+					</li>
+					<li class="navigation-menu__item">
+						<a href="./portfolio.html" class="menu-item__link menu-item__block--portfolio block--arrow">Portfolio</a>
+					</li>
+					<li class="navigation-menu__item">
+						<a href="#" class="menu-item__link">Blog</a>
+					</li>
+					<li class="navigation-menu__item">
+						<a href="#" class="menu-item__link contacts--border">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="contacts">
+		<div class="contacts__content-container">
+			<h2 class="contacts__title">Contact Us</h2>
+			<div class="contacts__flex-wrapper">
+				<div class="contacts__text-n-form">
+					<p class="contacts__text">
+						Thank you for stopping by. Please use the form below to contact us and will get back to you 
+						at the earliest possible
+					</p>
+					<p class="contacts__text">
+						For feedback or questions, please email us at: <a href="mailto:email@bislite.com" class="contacts__text-link">email@bislite.com</a>
+					</p>
+					<form class="contacts__form" action="https://mcslayer.com/hillel/post.php" method="POST">
+						<label for="contact_name" class="contacts__name-label">Name</label>
+						<input type="text" id="contact_name" class="input-name" name="contact-name">
+						<label for="contact_email" class="contacts__email-label">Email Address</label>
+						<input type="email" id="contact_email" class="input-email" name="contact-email" required autofocus>
+						<label for="contact_subject" class="contacts__subject-label">Subject</label>
+						<input type="text" id="contact_subject" class="input-subject" name="contact-subject">
+						<label for="contact_textarea" class="contacts__description-label">Description</label>
+						<textarea id="contact_textarea" class="textarea-description" name="contact-message"></textarea>
+						<label for="submit_button" class="contacts__button-label">Submit</label>
+						<input id="submit_button" class="input-submit" type="submit" value="submit">
+					</form>
+				</div>
+				<div class="contacts__map-n-address">
+					<div class="contacts__map">
+						<h3 class="contacts__map-title">We are here</h3>
+						<a href="#" class="contacts__map-link">
+							<img src="../images/contacts-images/map.png" alt="map" class="contacts__map-img">
+						</a>
+					</div>
+					<div class="contacts__address">
+						<h2 class="contacts__address-title">Office Address</h2>
+						<p class="contacts__address-text">
+							<span class="span--block text--bold">BisLite Inc.</span>
+							<span class="span--block">Always Street 265</span>
+							<span class="span--block">0X - 125 - Canada</span>
+						</p>
+						<p class="contacts__address-text">
+						<span class="span--block">Phone: 987-6543-210</span>
+						<span class="span--block">Fax: 987-6543-210</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__content-container">
+			<div class="footer__subsections-flex-container">
+				<div class="footer__subsection-about">
+					<h2 class="footer__subsection-title">About Us</h2>
+					<p class="footer__subsection-text">
+						Lorem ipsum dolor sit amet, 
+						consectetur adipiscing elit. Morbi 
+						euismod placerat dui et tincidunt. Sed 
+						sollicitudin posuere auctor. Phasellus 
+						at ultricies nisl. Integer at leo eros. Ut 
+						nec lorem id orci convallis porta. 
+						Donec pharetra neque eu velit dictum 
+						molestie.
+					</p>
+				</div>
+				<div class="footer__subsection-explore">
+					<h2 class="footer__subsection-title">Explore</h2>
+					<a href="#" class="footer__subsection-link">Home</a>
+					<a href="#" class="footer__subsection-link">About Us</a>
+					<a href="#" class="footer__subsection-link">Services</a>
+					<a href="./portfolio.html" class="footer__subsection-link">Portfolio</a>
+					<a href="#" class="footer__subsection-link">Blog</a>
+				</div>
+				<div class="footer__subsection-browse">
+					<h2 class="footer__subsection-title">Browse</h2>
+					<a href="#" class="footer__subsection-link">Careers</a>
+					<a href="#" class="footer__subsection-link">Press & Media</a>
+					<a href="#" class="footer__subsection-link">Contact Us</a>
+					<a href="#" class="footer__subsection-link">Terms Of Service</a>
+					<a href="#" class="footer__subsection-link">Privacy Policy</a>
+				</div>
+				<div class="footer__subsection-contact">
+					<h2 class="footer__subsection-title">Contact Us</h2>
+					<p class="footer__subsection-text">
+						<span class="span--block text--bold">BisLite Inc.</span>
+						<span class="span--block">Always Street 265</span>
+						<span class="span--block">0X - 125 - Canada</span>
+					</p>
+					<p class="footer__subsection-text">
+						<span class="span--block">Phone: 987-6543-210</span>
+						<span class="span--block">Fax: 987-6543-210</span>
+					</p>
+				</div>
+				<div class="footer__subsection-connect">
+					<h2 class="footer__subsection-title title--left-indent">Connect With Us</h2>
+					<div class="social-networks-wrap">
+						<a href="#" class="social-network-link">
+							<img src="../images/facebook_logo.png" alt="facebook logo" class="social-network-logo">
+						</a>
+						<a href="#" class="social-network-link">
+							<img src="../images/dribbble_logo.png" alt="dribbble logo" class="social-network-logo">
+						</a>
+						<a href="#" class="social-network-link">
+							<img src="../images/pinterest_logo.png" alt="pinterest logo" class="social-network-logo">
+						</a>
+						<a href="#" class="social-network-link">
+							<img src="../images/linkedin_logo.png" alt="linkedin logo" class="social-network-logo">
+						</a>
+						<a href="#" class="social-network-link">
+							<img src="../images/skype_logo.png" alt="skype logo" class="social-network-logo">
+						</a>
+						<a href="#" class="social-network-link">
+							<img src="../images/share_logo.png" alt="share logo" class="social-network-logo">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom-part">
+				<p class="footer-bottom-text">
+					© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com. 
+					Client Logos are copyright and trademark of the respective owners / companies.
+				</p>
+				<img src="../images/bislite_logo.png" alt="logo" title="logo" class="footer-logo">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
